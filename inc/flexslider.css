@@ -1,0 +1,60 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* Browser Resets */
+.flex-container a:active, .flexslider a:active { OUTLINE: none; }
+.slides, .flex-control-nav, .flex-direction-nav { MARGIN: 0; PADDING: 0; LIST-STYLE: none; }
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider { WIDTH: 100%; MARGIN: 0; PADDING: 0; }
+.flexslider .slides > li { DISPLAY: none; }
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img { MAX-WIDTH: 100%; DISPLAY: block; }
+.flex-pauseplay span { TEXT-TRANSFORM: capitalize; }
+
+/* Clearfix for the .slides element */
+.slides:after { CONTENT: "."; DISPLAY: block; CLEAR: both; VISIBILITY: hidden; LINE-HEIGHT: 0; HEIGHT: 0; }
+html[xmlns] .slides { DISPLAY: block; }
+* html .slides { HEIGHT: 1%; }
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { DISPLAY: block; }
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { BACKGROUND: #444442; BORDER: 15px solid #444442; POSITION: relative; -WEBKIT-BORDER-RADIUS: 15px; -MOZ-BORDER-RADIUS: 15px; -O-BORDER-RADIUS: 15px; BORDER-RADIUS: 15px; ZOOM: 1; }
+.flexslider .slides { ZOOM: 1; }
+.flexslider .slides > li { POSITION: relative; }
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container { ZOOM: 1; POSITION: relative; }
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption { BACKGROUND: none; -MS-FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); ZOOM: 1; }
+.flex-caption { WIDTH: 96%; PADDING: 2%; HEIGHT:100px; POSITION: absolute; LEFT: 0; BOTTOM: 0; TEXT-ALIGN:justify; BACKGROUND: rgba(0,0,0,.3); COLOR: #fff; TEXT-SHADOW: 0 -1px 0 rgba(0,0,0,.3); FONT-SIZE: 14px; LINE-HEIGHT: 18px;MARGIN: 0; }
+.flex-caption em { FONT-SIZE: 1.5em; DISPLAY: block; MARGIN-BOTTOM: 20px; FONT-WEIGHT: bold; FONT-STYLE: normal; }
+/* Direction Nav */
+.flex-direction-nav li a { WIDTH: 58px; HEIGHT: 59px; MARGIN: -13px 0 0; DISPLAY: block; BACKGROUND: url(./carousel-arrows.png) no-repeat 0 0; POSITION: absolute; TOP: 50%; CURSOR: pointer; TEXT-INDENT: -9999px; }
+.flex-direction-nav li .next { BACKGROUND-POSITION: 0 -180px; RIGHT: -40px; }
+.flex-direction-nav li .next:hover { BACKGROUND-POSITION: 0 -240px; }
+.flex-direction-nav li .prev { BACKGROUND-POSITION: 0 0; LEFT: -40px; }
+.flex-direction-nav li .prev:hover { BACKGROUND-POSITION: 0 -60px; }
+.flex-direction-nav li .disabled { OPACITY: .3; FILTER: alpha(opacity=30); CURSOR: default; }
+
+/* Control Nav */
+.flex-control-nav { WIDTH: 100%; POSITION: absolute; /*BOTTOM: -30px;*/ TEXT-ALIGN: center; DISPLAY:none; }
+.flex-control-nav li { MARGIN: 0 0 0 5px; DISPLAY: inline-block; ZOOM: 1; display:inline;}
+.flex-control-nav li:first-child { MARGIN: 0; }
+.flex-control-nav li a { WIDTH: 13px; HEIGHT: 13px; DISPLAY: block; BACKGROUND: url(images/bg_control_nav.png) no-repeat 0 0; CURSOR: pointer; TEXT-INDENT: -9999px; }
+.flex-control-nav li a:hover { BACKGROUND-POSITION: 0 -13px; }
+.flex-control-nav li a.active { BACKGROUND-POSITION: 0 -26px; CURSOR: default; }

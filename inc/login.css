@@ -1,0 +1,148 @@
+body { MARGIN: 0; BACKGROUND-COLOR: #2f2f2f; }
+
+:focus {outline:0;}
+
+.header-bg { BACKGROUND: url(./grey-logo-band.png ) repeat-x scroll 0 -85px #CB4040 !important;*BACKGROUND: url(./grey-logo-band.png ) repeat-x scroll 0 -85px #CB4040; HEIGHT: 180px; }
+.header { MARGIN: 0 auto; WIDTH: 1000px; HEIGHT: 175px; POSITION: relative; TEXT-ALIGN: left; }
+.logo { FLOAT: left; }
+
+.menuswrap, .minilinks { FONT-SIZE: 0.8em; OVERFLOW: hidden; }
+.menuswrap { LEFT: 220px; POSITION: absolute; TOP: 75px; WIDTH: 780px; HEIGHT: 100px;*margin-left:20px; }
+.minilinks { FLOAT: right; }
+.menuswrap ul, .minilinks ul { MARGIN: 0; }
+.menuswrap li, .minilinks li { MARGIN: 0; PADDING: 0; DISPLAY: inline; FLOAT: left; }
+.minilinks li { LINE-HEIGHT: 30px; MARGIN-TOP: 8px; }
+.menuswrap li a, .minilinks li a { TEXT-DECORATION: none; }
+.menuswrap li a { MARGIN-RIGHT: 20px; COLOR: #f2f0e0; }
+.menuswrap li a:hover { COLOR: #2F2F2F; }
+.minilinks li a { COLOR: #95948B; MARGIN-LEFT: 10px; }
+.minilinks li a:hover { COLOR: #F2F0E0; }
+
+.reg-head, .login-head { POSITION: absolute; TOP: 0; DISPLAY: inline-block; WIDTH: 154px; HEIGHT: 76px; BACKGROUND: url(/images/images-new/login/reg-login.png ) no-repeat; TEXT-INDENT: -9999px; }
+.reg-head { RIGHT: 170px; BACKGROUND-POSITION: 0 -155px; }
+.login-head { RIGHT: 0; BACKGROUND-POSITION: 0 0; }
+.reg-head:hover { BACKGROUND-POSITION: 0 -230px; }
+.login-head:hover { BACKGROUND-POSITION: 0 -77px; }
+
+.mini-weibo { BACKGROUND: url(/images/images-new/login/weibo.png) no-repeat 0 0; DISPLAY: inline-block; HEIGHT: 33px; WIDTH: 33px; }
+.mini-weibo:hover { BACKGROUND-POSITION: 0px -40px; }
+
+.main-bg { BACKGROUND: url(/images/images-new/login/main-bg.jpg ) no-repeat #cb4040 bottom center; MARGIN: 0 auto; HEIGHT: 700px; WIDTH: 100%; CLEAR: both; POSITION: relative; }
+.container { WIDTH: 980px; MARGIN: 0 auto; POSITION: relative; }
+.home-intro { FLOAT: right; WIDTH: 450px;overflow:hidden; }
+.home-intro img { FLOAT: left; MARGIN-TOP: 30px; }
+.home-intro h1 { BACKGROUND: url(./live.png ) no-repeat; TEXT-INDENT: -9999px; HEIGHT: 377px; OVERFLOW: hidden; }
+.home-intro p { COLOR: #f2f0e0; FONT-SIZE: 0.8em; PADDING-LEFT: 2em; WIDTH: 400px; FLOAT: left; TEXT-ALIGN: justify; }
+
+.home-so { WIDTH: 500px; HEIGHT: 350px; FLOAT: left; overflow:hidden;margin-top: 200px;}
+
+.home-stat { FLOAT: left; MARGIN: 0 70px 40px 0; WIDTH: 303px; }
+.home-stat a { BACKGROUND: url(/images/images-new/login/home-button-red-bg.jpg ) no-repeat 0 0; COLOR: #f2f0e0; MARGIN-TOP: 40px; PADDING-TOP: 12px; TEXT-ALIGN: center; DISPLAY: block; HEIGHT: 58px; WIDTH: 286px; COLOR: #f2f0e0; TEXT-DECORATION: none; TEXT-INDENT: -9999px; }
+.home-stat a:hover { COLOR: #474744; }
+
+.home-carousel { FLOAT: left; WIDTH: 550px; }
+.home-carousel li { DISPLAY: inline; TEXT-ALIGN: center; FONT-SIZE: 14px; OVERFLOW: hidden; }
+.home-carousel li img { BORDER-RADIUS: 15px 15px 15px 15px; }
+
+.row-1-spacer, .row-2-spacer { HEIGHT: 122px; CLEAR: both; PADDING-TOP: 40px; OVERFLOW: visible; }
+.row-1-spacer { BACKGROUND: url(/images/images-new/login/red-down-arrow-home.png ) 700px no-repeat; }
+.row-2-spacer h3 { BACKGROUND: url(/images/images-new/login/howtoplay.png) no-repeat left top; TEXT-INDENT: -9999px; HEIGHT: 115px; }
+
+.homerow { OVERFLOW: hidden; CLEAR: both; }
+.home-feature-box { PADDING: 17px; -MOZ-BORDER-RADIUS: 10px; -WEBKIT-BORDER-RADIUS: 10px; BORDER-RADIUS: 10px; BACKGROUND-COLOR: #444442; WIDTH: 210px; HEIGHT: 380px; MARGIN-RIGHT: 30px; FLOAT: left; POSITION: relative;overflow:hidden; }
+.feature-1 { BACKGROUND: url(/images/images-new/login/feature-1.jpg) no-repeat; HEIGHT: 380px; WIDTH: 210px; }
+.feature-2 { BACKGROUND: url(/images/images-new/login/feature-2.jpg) no-repeat; HEIGHT: 380px; WIDTH: 210px; }
+.feature-3 { BACKGROUND: url(/images/images-new/login/feature-3.jpg) no-repeat; HEIGHT: 380px; WIDTH: 210px; }
+.home-feature-box p { COLOR: #CBC9BD; FONT-SIZE:12px; LINE-HEIGHT:20px;}
+.home-feature-box p img.icon { MARGIN: 0; }
+.home-feature-box a { WIDTH: 210px; HEIGHT: 40px; POSITION: absolute; BOTTOM: 20px; DISPLAY: block; TEXT-INDENT: -9999px; }
+
+.btn { HEIGHT: 12px !important; WIDTH: 200px !important; FONT-SIZE: 12px; BACKGROUND-COLOR: #2F2F2F; BORDER-RADIUS: 4px 4px 4px 4px; COLOR: #F2F0E1; PADDING: 6px; TEXT-ALIGN: center; TEXT-DECORATION: none; TEXT-INDENT: 0 !important; }
+
+.home-support { WIDTH: 394px; FLOAT: right; MARGIN-TOP:-15px; }
+.home-support h2 { TEXT-INDENT: -9999px; BACKGROUND: url(/images/images-new/login/youcan.jpg); WIDTH: 392px; HEIGHT: 355px; }
+.home-support p { COLOR: #f2f0e0; FONT-SIZE: 0.8em; PADDING-LEFT: 5px; MARGIN-TOP:38px; }
+
+.home-learn-more-button, .home-impact-button { FLOAT: left; PADDING-TOP: 16px; TEXT-ALIGN: center; HEIGHT: 32px; COLOR: #f2f0e0; TEXT-DECORATION: none; }
+.home-learn-more-button { BACKGROUND: url(/images/images-new/login/home-button-red-bg-learn.jpg ) no-repeat 0 0; WIDTH: 235px; HEIGHT:56px; TEXT-INDENT: -9999px; }
+.home-learn-more-button:hover { COLOR: #474744; }
+.home-impact-button { MARGIN: 0 0 0 12px; BACKGROUND: url(/images/images-new/login/home-button-red-bg-impact.jpg ) no-repeat 0 0; WIDTH: 146px; HEIGHT:53px; TEXT-INDENT: -9999px;}
+.home-impact-button a:hover { COLOR: #474744; }
+
+.homepage-row-3 .home-feature-box { MARGIN-RIGHT: 0; MARGIN-LEFT: 30px;}
+.homepage-row-3 { BACKGROUND: url(/images/images-new/login/want-to-help-just-arrow.png) no-repeat 35px 0; PADDING-LEFT: 158px;width:980px;display:block;  }
+
+.homepod-twitter, .homepod-facebook { DISPLAY: block; HEIGHT: 30px; LINE-HEIGHT: 30px; }
+.homepod-twitter { BACKGROUND-COLOR: #77BED4 !important; BOTTOM: 80px !important; }
+.homepod-twitter:hover { COLOR: #2f2f2f; }
+.homepod-facebook { BACKGROUND-COLOR: #435C92 !important; }
+.homepod-facebook:hover { COLOR: #2f2f2f; }
+
+.other-ways-spacer { CLEAR: both; MARGIN: 30px auto 0; PADDING-LEFT: 480px;margin-bottom:100px }
+.other-ways-spacer a { TEXT-ALIGN: center; COLOR: #f2f0e0; TEXT-DECORATION: none; BACKGROUND: url(/images/images-new/login/home-button-red-bg-other.jpg ) no-repeat 0 0; PADDING: 10px 20px; DISPLAY: block; HEIGHT: 60px; WIDTH: 209px;TEXT-INDENT: -9999px; }
+.other-ways-spacer a:hover { COLOR: #474744; }
+
+.darkdividerdots { WIDTH: 980px; HEIGHT: 20px; BACKGROUND: url(/images/images-new/login/dark-divider-dots.png ) no-repeat; MARGIN: 20px 0; CLEAR: both; DISPLAY: inline-block; }
+
+.wcfooter { WIDTH: 980px; MARGIN: 60px auto 100px; }
+.wcfooter h2 { COLOR: #f2f0e0; }
+
+.LeftCol, .MiddleCol, .RightCol { WIDTH: 300px; FLOAT: left; }
+.MiddleCol, .RightCol { MARGIN-LEFT: 40px; }
+.LeftCol p, .MiddleCol p, .RightCol p { COLOR: #C3C1B5; }
+.MiddleCol div, .RightCol div { BACKGROUND-COLOR: #4c4c49; PADDING: 18px; -WEBKIT-BORDER-RADIUS: 20px; -MOZ-BORDER-RADIUS: 20px; BORDER-RADIUS: 20px; OVERFLOW: hidden; }
+.MiddleCol a, .RightCol a { COLOR: #C3C1B5; TEXT-DECORATION: none; }
+.MiddleCol dl { MARGIN: 0 0 10px; BORDER-BOTTOM: 1px dashed #666666; PADDING-BOTTOM: 9px; }
+.MiddleCol dd { FLOAT: left; MARGIN-LEFT: 0; }
+.MiddleCol dt { MARGIN-BOTTOM: 20px; }
+.MiddleCol img { BORDER: none; MARGIN-RIGHT: 18px; }
+.MiddleCol span { PADDING: 5px 20px 4px; BACKGROUND-COLOR: #2F2F2F; BORDER-RADIUS: 5px 5px 5px 5px; -WEBKIT-BORDER-RADIUS: 5px 5px 5px 5px; -MOZ-BORDER-RADIUS: 5px 5px 5px 5px; DISPLAY: inline-block; FONT-SIZE: 12px; }
+.MiddleCol span a:hover { BORDER-BOTTOM: 0; COLOR: #cb4040; }
+.RightCol ul { MARGIN: 0; PADDING: 0; }
+.RightCol li { PADDING-BOTTOM: 20px; BORDER-BOTTOM: 1px dashed #666666; MARGIN-BOTTOM: 20px; FONT-SIZE: 14px; WIDTH: 100%; DISPLAY: block; }
+.RightCol a:hover { BORDER-BOTTOM: 1px solid #d45151; }
+.footer-newsletter { BACKGROUND-COLOR: #4c4c49; PADDING: 18px; -WEBKIT-BORDER-RADIUS: 10px; -MOZ-BORDER-RADIUS: 10px; BORDER-RADIUS: 10px; OVERFLOW: hidden; MIN-HEIGHT: 35px; MARGIN-BOTTOM: 34px; }
+.footer-newsletter img { MARGIN-RIGHT: 15px; FLOAT: left; }
+.footer-newsletter a { TEXT-DECORATION: none; DISPLAY: inline; COLOR: #c3c1b5; MARGIN-TOP: 3px; FONT-SIZE: 15px; }
+.footer-newsletter a:hover { COLOR: #cb4040; }
+.footersprites { HEIGHT: 180px; MARGIN: 30px 0 20px 0; DISPLAY: block; BACKGROUND: url(/images/images-new/login/footer-sprites.png) no-repeat; }
+.footersprites h2 { COLOR: #65b6cf; PADDING: 15px 0 0 15px; MARGIN-BOTTOM: 0; }
+.footersprites ul { POSITION: relative; WIDTH: 225px; }
+.footersprites li { DISPLAY: block; FONT-SIZE: 12px; LINE-HEIGHT: 1.5em; }
+.footersprites li a { COLOR: #cb4040 !important; TEXT-DECORATION: none; }
+.FooterSocialNetworks { MARGIN: 20px; }
+.FooterSocialNetworks a { MARGIN-RIGHT: 20px; }
+
+.footer-bg { CLEAR: both; WIDTH: 100%; BACKGROUND: url(/images/images-new/login/dark-divider-dots.png ) no-repeat; MARGIN: 20px 0; }
+
+
+.btn100-y {background:url(/images/images-new/buttons/btns-y.png) no-repeat;}
+.btn100-y {background-position:0 0;width:106px;height:32px;line-height:32px;border:0;color:#fff;font-size:18px;cursor:pointer;font-weight:bold;}
+.btn100-y:hover {background-position:0 -32px;}
+.error-tips {border:1px solid #c49e19;background:#ede7b4;color:red;font-size:14px;position:absolute;padding:5px 20px;}
+.error-tips .arrow {bottom:-11px;position:absolute;}
+.arrow {display:block;width:20px;height:11px;font-size:1px;background:url(/images/images-new/background/arrow1.png) no-repeat;}
+.login-form {width:297px;height:291px;position:absolute;z-index:1000;margin:130px 0 0 100px;display:none;position:absolute;left:50%;}
+.login-rbg {display:block;width:40px;height:318px;background:url(/images/images-new/login/login-rbg2-1.png) no-repeat;float:left;margin-top:-27px;position:relative;}
+.form-area {float:left;width:226px;height:269px;padding:20px 0 0 30px;background:#fff;border-top:1px solid #CACBCD;border-left:1px solid #CACBCD;border-bottom:1px solid #CACBCD;position:relative;text-align: left;}
+.form-area .b-shadow {width:256px;top:220px;right:0;}
+input.login-input {width:218px;height:36px;line-height:36px;padding-left:4px;border:1px solid #D2D2D1;font-size:14px;color:#888;margin:0 0 20px 0;background:url(/images/images-new/background/search-bg.png) no-repeat;}
+.form-area label {font-weight:normal;display:block;margin:-4px 0 14px 0;font-size:12px;color:#444444;}
+.form-area label input {vertical-align:-3px;margin:0 5px 0 0;}
+.form-area .btn100-y {font-size:18px;font-weight:bold;color:#fff;margin-right:15px;}
+.form-area a {font-size:14px;text-decoration:underline;color:#2787B1;}
+.form-area .error-tips {top:-26px;}
+
+
+.footer { BORDER-TOP: 1px dashed #444444; BORDER-BOTTOM: 1px dashed #444444;  FONT-SIZE: 0.8em; display: inline-block;width:100%;text-align:center }
+.footer ul { LIST-STYLE: none; LINE-HEIGHT: 25px; FONT-SIZE: 12px; BORDER: 0; MARGIN: 0 20px 0 0; PADDING: 0; }
+.footer li { DISPLAY: block; LINE-HEIGHT: 20px; MARGIN-BOTTOM:1em;  COLOR: #cfcfcf;font-size: 12px;}
+.footer p { COLOR: #F7F3E7; TEXT-ALIGN: justify; FLOAT: right; WIDTH: 572px; LINE-HEIGHT: 1.8em; TEXT-INDENT:2em; }
+.footer a { TEXT-DECORATION: none; PADDING: 4px 4px 4px 0;  COLOR: #cfcfcf;font-size: 12px;}
+.footer .l, .footer .m, .footer .r { FLOAT: left;}
+.footer .l { background-color:#444442;border-radius:10px 10px 10px 10px;WIDTH: 140px; PADDING-LEFT: 20px; margin:0 35px 0 0;text-align:left}
+.footer .m { background-color:#444442;border-radius:10px 10px 10px 10px;WIDTH: 350px; PADDING-LEFT: 20px;margin:0 35px 0 0;text-align:left}
+.footer .r { background-color:#444442;border-radius:10px 10px 10px 10px;WIDTH: 420px; PADDING:0px 19px 4px 25px;color:white;text-align:left}
+.footer-content { position:relative;margin:50px auto;display: inline-block;}
+
+.loginweibo { BACKGROUND: url('../images/login/login16-16.png') no-repeat 0 0;width:100px;height:16px;margin-top:10px }

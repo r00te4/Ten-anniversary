@@ -1,0 +1,15 @@
+application: douya2002
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+- url: /inc 
+  static_dir: inc
+- url: /saying
+  script: loading.py
+- url: .*
+  script: main.py
